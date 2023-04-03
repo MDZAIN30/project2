@@ -11,19 +11,19 @@ public class Question11 {
 	    int b = s.nextInt();
 	    int c = s.nextInt();
 
-	    int largest = a;
+	    int smaller = a;
 
-	    if (b > largest) 
+	    if (b < smaller)
 	    {
-	      largest = b;
+	      smaller = b;
 	    }
 
-	    if (c > largest) 
+	    if (c > smaller)
 	    {
-	      largest = c;
+	      smaller = c;
 	    }
 
-	    System.out.println("The largest number is: " + largest);
+	    System.out.println("The smaller number is: " + smaller);
 	  }
 	}
 
